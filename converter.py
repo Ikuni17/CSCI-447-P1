@@ -1,5 +1,6 @@
 ##open files
-input = open('abalone/abalone.data', 'r')
+inputPath = raw_input('Please enter the path to the data file: ')
+input = open(inputPath, 'r')
 open('output.data', 'w')
 output = open('output.data', 'a')
 
