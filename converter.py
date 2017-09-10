@@ -1,8 +1,8 @@
 ##open files
 inputPath = raw_input('Please enter the path to the data file: ')
 input = open(inputPath, 'r')
-open('output.arff', 'w')
-output = open('output.arff', 'a')
+open('converted.arff', 'w')
+output = open('converted.arff', 'a')
 
 ##count how many attributes based on commas
 line = input.readline()
