@@ -39,10 +39,10 @@ c) Date of release: Jan 2007
 6. Number of Attributes: 10 predictive attributes, 1 goal attribute
 
 7. Attribute Information:
-   1) S1 “Suit of card #1”
+   1) S1 “Suit of card #1” 1,2,3,4
       Ordinal (1-4) representing {Hearts, Spades, Diamonds, Clubs}
 
-   2) C1 “Rank of card #1”
+   2) C1 “Rank of card #1” 1,2,3,4,5,6,7,8,9,10,11,12,13
       Numerical (1-13) representing (Ace, 2, 3, ... , Queen, King)
 
    3) S2 “Suit of card #2”
