@@ -21,12 +21,13 @@ while (x < numAttributes):
     if type == 'nu':
         type = 'NUMERIC'
     elif type == 'no':
-        type = 'NOMINAL'
+        type = '{' + raw_input('Please enter possible cases: ') + '}'
     elif type == 'st':
         type = 'STRING'
     elif type == 'da':
         type = 'DATE'
-
+						
+		
     output.write('\n@ATTRIBUTE ' + str(name) + ' ' + str(type) )
 
     x+= 1
