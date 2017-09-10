@@ -9,7 +9,7 @@ line = input.readline()
 numAttributes = line.count(',') + 1
 
 ##header
-output.write('@REALATION ')
+output.write('@RELATION ')
 output.write(raw_input('Please enter the relation name: ') + '\n')
 
 x = 0
