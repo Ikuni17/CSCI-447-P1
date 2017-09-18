@@ -6,9 +6,9 @@
 @ATTRIBUTE children {1,2,3,more}
 @ATTRIBUTE housing {convenient,less_conv,critical}
 @ATTRIBUTE finance {convenient,inconv}
-@ATTRIBUTE social {non-prob,slightly_prob,problematic}
+@ATTRIBUTE social {nonprob,slightly_prob,problematic}
 @ATTRIBUTE health {recommended,priority,not_recom}
-@ATTRIBUTE CLASS {not_recom,recommend,very_recom,priority,spec_priority}
+@ATTRIBUTE CLASS {not_recom,recommend,very_recom,priority,spec_prior}
 
 @DATA
 usual,proper,complete,1,convenient,convenient,nonprob,recommended,recommend

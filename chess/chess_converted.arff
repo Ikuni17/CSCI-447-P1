@@ -1,12 +1,12 @@
 @RELATION chess
 
-@ATTRIBUTE white_king_col NUMERIC
+@ATTRIBUTE white_king_col {a,b,c,d,e,f,g,h}
 @ATTRIBUTE white_king_row NUMERIC
-@ATTRIBUTE white_rook_col NUMERIC
+@ATTRIBUTE white_rook_col {a,b,c,d,e,f,g,h}
 @ATTRIBUTE white_rook_row NUMERIC
-@ATTRIBUTE black_king_col NUMERIC
+@ATTRIBUTE black_king_col {a,b,c,d,e,f,g,h}
 @ATTRIBUTE black_king_row NUMERIC
-@ATTRIBUTE optimal_dow {draw,zero,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen}
+@ATTRIBUTE CLASS {draw,zero,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen}
 
 @DATA
 a,1,b,3,c,2,draw
